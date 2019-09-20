@@ -67,6 +67,10 @@ footer{
 	letter-spacing: .08em;
 	font-weight: 500;
 	margin: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 
 }
 
@@ -81,12 +85,12 @@ footer{
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
 .name{
