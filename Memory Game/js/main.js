@@ -23,7 +23,6 @@ var cards =[
 }
 ];
 var cardsInPlay =[];
-var cardElement;
 
  function flipCard(cardId)
  {	
@@ -73,17 +72,18 @@ function createBoard()
   	for (var i = 0; i < cards.length; i++) {
   		
   		var newListItem = document.createElement('img');
+		
+		var boardGame = document.createElement('newListItem');
+
+ 	 		// newListItem.setAttribute(cards[cardImage])
 		    
+		    // newListItem.setAttribute(src="images/back.png");
 
- 	 		// cardElement.setAttribute(cards[cardImage])
-		    
-		    cardElement.setAttribute(src="images/back.png");
+		    newListItem.setAttribute('rank', 'suit');
 
-		    cardElement.setAttribute('attributeName', 'attributeValue');
+		    newListItem.setAttribute('data-id','i');
 
-		    cardElement.setAttribute('data-id');
-
-		    cardElement.appendChild(game-board);
+		    boardGame.appendChild(newListItem);
 
 
 
